@@ -1,0 +1,46 @@
+.writer-container {
+  width: 60%; /* Ajusta según tus necesidades */
+  background-color: #343a40;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.writer-tittle {
+  margin-top: 10%; /* Separación superior */
+  margin-bottom: 3%; /* Separación inferior */
+  color: #eff1f3; /* Color del texto oscuro para contraste */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Alineación centrada */
+}
+
+.writer-subTittle {
+  margin-bottom: 3%; /* Separación inferior */
+  color: #eff1f3; /* Color del texto oscuro para contraste */
+  font-style: oblique; /* Cursiva */
+  text-align: center; /* Alineación centrada */
+}
+
+/* Media Query para pantallas menores a 768px */
+@media (max-width: 768px) {
+  .writer-container {
+    width: 80%; /* Aumentar el ancho para dispositivos más pequeños */
+  }
+
+  .writer-title {
+    font-size: 18px; /* Ajustar el tamaño de la fuente para una mejor legibilidad */
+  }
+}
+
+/* Media Query para pantallas aún más pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+  .writer-container {
+    width: 95%; /* Ocupar casi todo el ancho en pantallas pequeñas */
+    padding: 10px; /* Añadir algo de espacio alrededor */
+  }
+
+  .writer-tittle {
+    font-size: 25px; /* Reducir aún más el tamaño de la fuente */
+    margin-top: 23%;
+  }
+}

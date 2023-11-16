@@ -1,0 +1,64 @@
+GUÍA PERSONAL DEL PROYECTO:
+
+1    Comienzo creando el flujo de la base de datos Diaw.exe
+2    Crear la carpeta del proyecto (MERN) Mongo-Express-React-Node.js      
+3    npm init para instalar y vamos respondiendo las preguntas (la licencia es MIT) Con esto instalamos el package.json
+4    Instalar dependencias para llenar el package.json (Express, Mongoose, MongoosePaginantion, Multer, Momen, Validator, Bcrypt, JWT, Cors, Nodemon )
+           Configuramos el archivo connection.js de la carpeta Database y el index.js con todos los datos del servidor.
+5    "start": "nodemon index.js" -- Modificamos esto en el package.json para arrancar nodemon con npm start y creamos el archivo index.js
+6    Creamos la carpeta Database / archivo connection y configurar el acceso a la base de datos.  
+7    Creamos la carpeta Controllers. En ella cada función tendrá su propio archivo donde irán las funciones que hacen cada uno. 
+8    Creamos la carpeta Routes. En ella cada función tendrá sus propias rutas.
+9    Creamos la carpeta Models. En ella creamos el esquema de cada una de nuestras funciones.
+10   Creamos la carpeta Services. En caso de que queramos hacer uso de ellos (son funciones externas para poder usar en diferentes partes)
+11   Creamos la carpeta Middleware. Esto son funcione que se ejecutarán antes que las rutas. Por ejemplo el autentificador.
+12   Ahora vamos creando cada función que va a hacer nuestra app. 
+               const funcion = () => {}  //Recordar que todas las funciones deber ser exportardas e importadas.
+
+
+*Otros datos
+     Multer deber ser configurado para subir imagenes.
+     Los services podrán ser usados donde queramos.
+     Si tenemos una sola funcion en el archivo podemos hacer export const funcion pero si son varias usamos module.exports {}
+     El nuevo mongoose no acepta callbacks así que he tenido que reescribir el código con async/await
+     Recordar que el campo ID de cada elementro que se crea se asigna de forma automática.
+
+//PROGRAMAS USADOS---------------------
+
+Visual Studio (para el código)
+Postman (Para hacer las peticiones)
+MongoDB Compass (La base de datos en si)
+MongoDB tiene que estar siempre corriendo en el sistema y luego presionamos nmp start y se conectan.
+
+SISTEMA DE CARPETAS---------------------
+
+General
+     Database
+     Controller 
+     Routes
+     Middleware
+     Models
+     Services
+
+ALGUNOS MÉTODOS USADOS (MONGOOSE METHODS)
+
+.find()     Método para buscar en la base de datos. Tiene varias asignaciones como $or, $and.
+.exec()     Método para ejectuar peticiones. No es obligaoria. Se usa tras haber definido una consulta.
+.sort()     In array, convert array to string and order it. In moongose order element by specific condition, id, name etc..
+Math.ceil() Devuelve un número redondeado hacia arriba.
+FS          Sirver para borrar archivos. Por ejemplo, al hacer una petición para eliminar algo.
+.populate() Método para filtrar los datos que quieres obtener.
+next()      Da paso al siguiente Middleware o ejecuta la función. 
+delete      Elimina una propiedad que no queremos mostrar.
+new:        Devuelve al instante un dato con los cambios realizados en la BBDD.
+
+
+METODOS CREADOS
+
+USER           Registrer, Login, UserList, userPerfil, changeProfile, 
+FOLLOW         FollowUer, UnfollowUser, See Follows 
+PUBLICATION    SavePublication, LikePublication, UnlikePublication, 
+
+
+
+ 
