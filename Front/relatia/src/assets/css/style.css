@@ -1,0 +1,108 @@
+/*GENERAL*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;800&display=swap");
+
+html,
+body {
+  display: flex; /* Alinea los elementos en una fila */
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #212529;
+  overflow-x: hidden; /* Evita que el contenido se desborde horizontalmente */
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*HEADER*/
+.navbar {
+  background-color: #ffffff;
+  color: #252422; /* Color del texto oscuro para contraste */
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a:hover {
+  color: #d77a61; /* Cambia el color al pasar el cursor */
+}
+div.navItem {
+  margin: 0 10px;
+}
+.imgLang {
+  width: 20px;
+  height: 20px;
+}
+.langButton {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/*BOTONES*/
+.btn-principal {
+  background-color: #d77a61;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: auto; /* Ajustar el ancho máximo del input */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30%;
+}
+
+.btn-principal:hover {
+  background-color: #223843;
+}
+
+.btn-secundario {
+  background-color: #223843;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30%;
+}
+
+.btn-secundario:hover {
+  background-color: #d77a61;
+}
+
+.btn-edit {
+  background-color: #fca311;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 2%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+  background-color: #223843;
+}
+.btn-delete {
+  background-color: #a4161a;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 2%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #223843;
+}

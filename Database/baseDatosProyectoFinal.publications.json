@@ -1,0 +1,176 @@
+[{
+  "_id": {
+    "$oid": "6554a555788c4f2b3b41f117"
+  },
+  "title": "Sanación",
+  "description": "Capitulo de sanación 01",
+  "story": "La sanación es un lento proceso de cambios, avances y también retrocesos. El ámbito de la psicología es muy diferente al plano médico; aquí no sirven las radiografías, ni las resonancias magnéticas ni tampoco los análisis de sangre. El dolor emocional que suscita una depresión, por ejemplo, no es visible ni tangible; por ello, este tipo de «curaciones» requieren de otros tiempos y otras formas de observación.\n\nLa sanación psicológica es muy diferente de la sanación física, pero, aún así, ambas son determinantes para el bienestar humano, para que cada uno gocemos de auténtica calidad de vida. A pesar de esto, resulta llamativo cómo una parte de la población camina por su cotidianidad con el ánimo hecho pedazos, rotos en esperanzas, fracturados en cuanto autoestima y motivaciones.",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T11:02:45.709Z"
+  },
+  "user": {
+    "$oid": "6554a3c1788c4f2b3b41f0e7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554a5a1788c4f2b3b41f119"
+  },
+  "title": "Habilidades comunicativas",
+  "description": "Habilidades del ser 01",
+  "story": "Qué son las habilidades comunicativas\nLas habilidades comunicativas, también conocidas como habilidades de comunicación, se refieren a la capacidad de transmitir ideas, información y emociones de manera efectiva, tanto de forma verbal como no verbal. Estas habilidades son fundamentales en todas las áreas de la vida, incluyendo ámbitos personal, académico y profesional.\n\nLo más usual es que asociemos las habilidades comunicativas con el simple hecho de hablar, sin embargo, este concepto va mucho más allá de eso, pues implica crear conexiones para que las interrelaciones personales sean sanas, estables y valiosas. Por lo tanto, las habilidades comunicativas se relacionan con:\n\nCómo actuamos: nuestro lenguaje corporal, las acciones de ayuda a los demás e incluso las omisiones en ciertos aspectos de nuestra vida son un tipo de habilidad comunicativa.\nCuando escribimos o hablamos: no solo se refiere a la escritura en papel, sino también cuando nos relacionamos a través del chat, correos electrónicos, notas, etc. con asertividad.\nSaber escuchar: se trata de la habilidad de desarrollar la escucha activa, así como de fomentar espacios en donde los demás sientan que son escuchados, atendidos y aceptados.",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T11:04:01.986Z"
+  },
+  "user": {
+    "$oid": "6554a3c1788c4f2b3b41f0e7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554a694788c4f2b3b435461"
+  },
+  "title": "Los Meroreadores",
+  "description": "Harry Potter Mundo Cap I",
+  "story": "La primera historia que ha venido a la cabeza de muchos tras el anuncio de la posible ficción es la de los Merodeadores. Durante sus años de estudiantes en Hogwarts, Remus Lupin, Peter Pettigrew, Sirius Black y James Potter formaron un grupo destacado por romper las reglas y hacer travesuras. Como recordarás, también fueron los creadores del Mapa del Merodeador, un objeto mágico que ayudó a Harry Potter en sus andanzas en el Colegio de Magia y Hechicería. ",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T11:08:04.584Z"
+  },
+  "user": {
+    "$oid": "6554a61c788c4f2b3b431dfe"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554a6a9788c4f2b3b435463"
+  },
+  "title": "Los padres de Harry",
+  "description": "Harry Potter Familia Cap I",
+  "story": "¿Qué tal te suena una precuela sobre los padres de Harry Potter? La historia de Lilly y James permitiría a los fans del mundo creado por Rowling volver a Hogwarts durante su época de estudiantes. También a indagar en su lucha contra Lord Voldemort antes de morir a manos del mago tenebroso protegiendo a su hijo.",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T11:08:25.896Z"
+  },
+  "user": {
+    "$oid": "6554a61c788c4f2b3b431dfe"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554d3d6788c4f2b3b4398b0"
+  },
+  "title": "La puerta de Arena",
+  "description": "El hedor de la muerte (CAPITULO UNO)",
+  "story": "Los gritos de dolor podían oírse desde el pequeño y austero salón. Claramente hacía mucho tiempo que nadie pasaba por allí, todo estaba sucio, lleno de viejas telarañas y una densa humedad cargaba el ambiente. Pero a ninguno de los presentes le importaba, todos esperaban con aparente e infinita paciencia tras la puerta de la habitación, donde la chica y  su enfermera trataban de expulsar a una criatura que no tenía intención de venir al mundo.\nEn el exterior nevaba desde hacía días, de forma incesante y monótona, cubriendo de un blanco espectral el valle donde se encontraba la vieja cabaña.\nUnas horas más tarde, el llanto del bebé inundó el pequeño lugar rompiendo el silencio que se había formado. Nadie se atrevía siquiera a respirar hasta saber el veredicto de la enfermera. \nLa exhausta madre, rota tras más de ocho horas de parto, pidió a la matrona que examinara a la criatura y cerrando los ojos, comenzó a suplicar en voz baja.\n\n—Lo siento —dijo la enfermera tratando de usar el tono más dulce posible mientras cargaba al bebé en brazos para arrullarlo en una manta. \n\nHundiendo la cabeza sobre la almohada con fuerza y rabia, la madre comenzó a llorar desconsolada.\nAl oír el llanto de la mujer,  los presentes en el salón comprendieron.\n\n—Estad preparados —advirtió una anciana que parecía la matriarca—, no tardarán  en llegar.\n\nUn joven de pelo rubio y ojos grises se apostó junto a la ventana y comenzó a estudiar el tenue paisaje que se extendía hasta donde abarcaba la vista. Todo estaba en orden. Por unos segundos, sus pensamientos volaron a otro tiempo y su mirada se volvió triste. Apretó los puños con fuerza y un aura dorada emergió de ellos para elevarse por sus brazos.\nLos demás, un hombre mayor de pelo cano que se encontraba muy nervioso y dos chicos gemelos asieron sendas espadas de cobre,  esperando con toda la paciencia que la situación exigía  para recibir la orden de la matriarca. \n",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T14:21:10.978Z"
+  },
+  "user": {
+    "$oid": "6554d253788c4f2b3b4398a3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554d3f8788c4f2b3b4398b2"
+  },
+  "title": "La puerta de arena",
+  "description": "El cementerio (CAPITULO DOS)",
+  "story": "«Somos más viejos que el tiempo, pues nosotros lo creamos. Vimos apagarse las estrellas en el firmamento y conocemos historias que harían temblar los cimientos del mundo que conocéis.  \nMuchos nombres nos habéis impuesto cuando jamás hemos deseado alguno. Quisimos pasar desapercibidos pero todo fue en vano. \nHemos visto caer imperios, fuimos testigos de la masacre del Pueblo Gris y conocemos las palabras que abren La Puerta de Arena en el reino de Lum.\nEl mundo no tiene secretos para nosotros pues hemos vivido en cada uno de sus días y sus noches. Si olvidáis vuestra esencia, tendremos que intervenir.»\n\nEl texto fue grabado en una plancha de cobre y colocado en la puerta del cementerio años atrás por el alcalde del pueblo. Un fanático de los entes divinos que quería advertir a las personas y mostrarles quién movía los hilos del mundo. Decía que lo leyó en una tablilla encontrada bajo unas enormes ruinas pero nunca nadie lo creyó. Todos pensaban que le faltaba un tornillo.\n\nVein conocía cada frase, cada palabra y cada punto de memoria pues pasaba por delante del cartel a diario. El cementerio era su hogar.\nSu padre era el sepulturero y podía presumir de haber cavado la mayoría de las tumbas del santo lugar, todo un hito sabiendo el colosal tamaño que ocupaba.\nSu madre, se encargaba de tallar las estatuas que acompañaban a las almas de las personas por toda la eternidad. Ambos hacían un trabajo increíble y por ello, este cementerio era elegido por sujetos de todo el mundo para su eterno descanso.\nTenía las mejores estatuas, los más majestuosos panteones familiares e incluso sus alrededores estaban repletos de las flores más hermosas que después eran usadas para decorar las lápidas. En primavera, poder contemplar la gama de colores que poblaba el cementerio era un auténtico espectáculo.\n\nPero él lo destruyó. Como hacía con todo lo que apreciaba. Las palabras resonaban en la mente de Vein a diario provocando en él una perpetua tristeza que le ahogaba lentamente.\nTras la muerte de sus padres el nuevo alcalde, un hombre comprensivo y siempre dispuesto a ayudar, le dejó la casa donde había vivido con ellos. Una pequeña edificación de una sola planta con todas las comodidades que una familia de clase media podía necesitar y que estaba situada en la entrada del camposanto. \n",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T14:21:44.558Z"
+  },
+  "user": {
+    "$oid": "6554d253788c4f2b3b4398a3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554d587788c4f2b3b446ab2"
+  },
+  "title": "Benefits of going GYM!",
+  "description": "Life GYM 01",
+  "story": "A gym is a place where people go to train and exercise, but also to unwind, socialize, and recharge. Therefore, a good gym is a facility that promotes physical activity, provides a safe, functional, and comfortable workout environment, and creates a pleasant and enjoyable atmosphere for recreation and socialization.",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T14:28:23.916Z"
+  },
+  "user": {
+    "$oid": "6554d4d9788c4f2b3b444d37"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554d87f788c4f2b3b446abe"
+  },
+  "title": "Literatura del Antiguo Egipto",
+  "description": "Egipto",
+  "story": "Se considera literatura del Antiguo Egipto a los textos escritos en lengua egipcia desde el período faraónico del Antiguo Egipto hasta el final de la dominación romana del país. Representa el corpus más antiguo de la literatura egipcia y, junto con la literatura sumeria, se considera la literatura más antigua del mundo.2​\n\nLa escritura en el antiguo Egipto, tanto jeroglífica como hierática, se remonta a finales del cuarto milenio a. C. durante el período tardío del Egipto predinástico. En el Imperio Antiguo (siglos XXVI a XXII a. C.) las obras literarias consistían en textos funerarios, epístolas y cartas, himnos y poemas y textos autobiográficos conmemorativos que relataban la trayectoria de altos funcionarios administrativos. Hasta principios del Imperio Medio (siglos XXI a XVII a. C.) no surgió una literatura narrativa egipcia, que supuso una «revolución mediática» que, según el egiptólogo y académico británico Richard B. Parkinson, fue el resultado de la aparición de una clase intelectual de escribas, de una nueva sensibilidad cultural sobre la individualidad, de unos niveles de alfabetización sin precedentes y un mayor acceso al material escrito.3​ Sin embargo es probable que la tasa de alfabetización general fuera inferior al uno por ciento de la población total, por lo que la creación literaria estaba reservada a la élite social, monopolizada por una clase de escribanos vinculados a las oficinas del gobierno y a la corte real del faraón reinante, aunque no existe un consenso pleno entre los eruditos modernos en cuanto a la dependencia de la antigua literatura egipcio del orden sociopolítico de las cortes reales.\n\nEl egipcio medio, la lengua hablada del Imperio Medio, se convirtió en un idioma clásico durante el Imperio Nuevo (siglos XVI a XI a. C.) cuando apareció por primera vez por escrito la lengua vernácula conocida como egipcio tardío. Los escribas del Imperio Nuevo canonizaron y copiaron muchos textos literarios escritos en egipcio medio, que seguía siendo el idioma utilizado para las lecturas orales de los textos jeroglíficos sagrados. Algunos géneros de la literatura del Reino Medio, como las sebayt o «enseñanzas» y los relatos de ficción, seguían siendo populares durante el Imperio Nuevo, aunque el género de los textos proféticos no resurgió hasta el período ptolemaico (siglos IV a I a. C.). Entre los relatos más populares están la Historia de Sinuhé y la Historia del campesino elocuente y entre las enseñanzas más significativas están las Instrucciones de Amenemhat y La enseñanza de la lealtad. Durante el Imperio Nuevo la escritura de grafitos conmemorativos en los templos sagrados y en las paredes de las tumbas llegó a convertirse en un género literario en sí mismo, aunque empleaba expresiones similares a las de otros géneros. El reconocimiento de la autoría legítima solo era importante en unos pocos géneros y en los textos de «enseñanzas» generalmente se utilizaban seudónimos y se atribuían de forma engañosa a destacadas figuras",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T14:41:03.331Z"
+  },
+  "user": {
+    "$oid": "6554d799788c4f2b3b446ab5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6554d89a788c4f2b3b446ac0"
+  },
+  "title": "Literatura Griega",
+  "description": "Historias de Grecia",
+  "story": "La literatura griega es aquella escrita por autores autóctonos de Grecia (alrededor de los años 2000 a. C.) y áreas geográficas de influencia, muchas compuestas en sus dialectos. Se extiende a lo largo de todos los periodos de escritores de ese origen o de ese momento. Los géneros más destacados de esta literatura son la comedia —en la cual tomaban el lado más burlesco de algo específico y cuyo mayor representante es Aristófanes— y la tragedia —en donde se relataba un hecho generalmente de un héroe que pasa por un secuencia de hechos catastróficos, y cuyos mayores representantes son Eurípides, Sófocles y Esquilo—. La mayoría de estos escritos eran realizados por un rapsoda y transmitidos oralmente por un aedo.\n\nLiteratura griega antigua (anterior al año 395 a. C.)\nArtículo principal: Literatura griega antigua\n\nBusto doble de Homero y Menandro. Copia romana de un original griego perdido\nAutores principales de la literatura griega antigua\nHomero, autor de la Ilíada y la Odisea. Se le han atribuido además una serie de Himnos, la Batracomiomaquia y el Margites.\nHesíodo (hacia la segunda mitad del siglo viii a. C.): Trabajos y días, poema didáctico; Teogonía, exposición de la genealogía de los dioses griegos; El escudo de Heracles.\nPoesía lírica\nArtículo principal: Lírica griega",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T14:41:30.767Z"
+  },
+  "user": {
+    "$oid": "6554d799788c4f2b3b446ab5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65550437788c4f2b3b44a2c5"
+  },
+  "title": "dfgdfsg",
+  "description": "dsfgsdfg",
+  "story": "sdfg",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T17:47:35.598Z"
+  },
+  "user": {
+    "$oid": "655503b0788c4f2b3b44a295"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6555043a788c4f2b3b44a2c7"
+  },
+  "title": "ewrtwert",
+  "description": "wertwertdfgsdfgsdfg",
+  "story": "ewrtwertsdfgdsfg",
+  "like": 0,
+  "create_date": {
+    "$date": "2023-11-15T17:47:38.523Z"
+  },
+  "user": {
+    "$oid": "655503b0788c4f2b3b44a295"
+  },
+  "__v": 0
+}]
