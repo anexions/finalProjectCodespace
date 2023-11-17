@@ -7,41 +7,59 @@
 
 .profile-image {
   width: 300px;
-  margin-bottom: 2%;
   height: 300px;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Asegura que la imagen esté centrada */
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
+
 .container-file-image {
   display: flex;
   justify-content: center;
 }
+
 .profile-tittle {
-  margin-top: 10%;
   color: #eff1f3;
   font-size: 40px;
   text-align: center;
   font-weight: bold;
+  margin-top: 10%;
 }
+
 .userProfile-back {
   width: 100%;
 }
+
 .userProfile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  width: 90%; /* Aumentar el ancho */
+  width: 90%;
+}
+
+.card-body {
+  display: flex; /* Establece los elementos en línea dentro de cada card-body */
+  flex-direction: column; /* Alinea los elementos verticalmente dentro de cada card-body */
+  align-items: center; /* Centra los elementos verticalmente dentro de cada card-body */
+  margin-right: 10px; /* Añade espacio entre los elementos */
 }
 
 .card-tittle {
   color: #343a40;
   font-size: 2rem;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .following-list {
+  display: flex; /* Establece los elementos en línea */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas más pequeñas */
+  justify-content: center; /* Centra los elementos */
   margin-bottom: 2%;
 }
 
@@ -50,15 +68,15 @@
   margin: auto;
 }
 
-.following-data-container{
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: auto;
+.following-data-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .avatar-image-following {
-  width: 50px; /* Tamaño más pequeño para los avatares */
+  width: 50px;
   height: 50px;
   border-radius: 50%;
 }
@@ -80,12 +98,12 @@ width: auto;
 }
 
 .form-control-profile {
-  border-radius: 10px;
- width: auto; /* Ajustar el ancho máximo del input */
-  margin: auto; /* Centrar el input en el contenedor */
+  width: auto;
+  margin: auto;
   text-align: center;
   margin-bottom: 2%;
   border-style: none;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -94,77 +112,46 @@ width: auto;
   justify-content: center;
 }
 
+/* Tus estilos existentes */
+
 /* Media Queries */
 
-/* Pantallas medianas (tabletas, pantallas pequeñas de escritorio) */
+/* Para tabletas y pantallas pequeñas de escritorio */
 @media (max-width: 768px) {
-  .profile-container {
-    width: 80%; /* Aumentar el ancho para pantallas medianas */
+  .profile-container,
+  .userProfile-container,
+  .following-container {
+    width: 80%; /* Ajuste para pantallas medianas */
   }
 
   .profile-image {
-    width: 200px; /* Ajustar el tamaño de la imagen */
+    width: 200px; /* Ajuste del tamaño de la imagen */
     height: 200px;
   }
 
   .profile-tittle {
-    font-size: 30px; /* Ajustar el tamaño de la fuente */
-    margin-top: 5%;
-  }
-  .form-control.mb-3 {
-    max-width: 70%; /* Aumentar el ancho en pantallas medianas */
+    font-size: 30px; /* Tamaño de fuente ajustado */
   }
 
-  .following-container {
-    width: 100%; /* Ajustar el ancho para una mejor visualización */
-  }
-
-  .avatar-image-following {
-    width: 40px; /* Reducir el tamaño de los avatares */
-    height: 40px;
-  }
+  /* Ajustes adicionales para otros elementos si es necesario */
 }
 
-/* Pantallas pequeñas (móviles) */
+/* Para móviles */
 @media (max-width: 480px) {
-  .profile-container {
-    width: auto; /* Ajustar para pantallas móviles */
-  }
-.title-image-container{
-  display: flex;
-  flex-direction: column;
-}
-  .profile-image {
-  width: 300px;
-  margin-bottom: 2%;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-  }
-
-  .form-control.mb-3 {
-    max-width: 90%; /* Aumentar el ancho en pantallas móviles */
-  }
-  .profile-tittle {
-    font-size: 25px; /* Tamaño de fuente más pequeño para pantallas móviles */
-    margin-top: 15%; /* Ajustar el margen superior */
-  }
-
-  .userProfile-container {
-    width: 100%;
-  }
-
+  .profile-container,
+  .userProfile-container,
   .following-container {
-    width: 88%; /* Ajustar el ancho para una mejor visualización en móviles */
-  }
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+    width: 100%; /* Ajuste para pantallas más pequeñas */
   }
 
-  .card-body h5 {
-    margin-top: auto;
+  .profile-image {
+    width: 150px; /* Reducción del tamaño de la imagen */
+    height: 150px;
   }
+
+  .profile-tittle {
+    font-size: 25px; /* Tamaño de fuente más pequeño para mejor legibilidad */
+  }
+
+  /* Ajustes adicionales para otros elementos si es necesario */
 }

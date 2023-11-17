@@ -351,40 +351,31 @@ const Profile = () => {
           </div>
         </div>
 
-        <div className="following-container test">
-          <div className="followingList test">
-            <div className="test">
-              <div className="card-body">
-                <h3 className="card-tittle">{t("followingList")}</h3>
-                {following.length === 0 ? (
-                  <p>{t("emptyFollowingList")}</p>
-                ) : (
-                  following.map((followedUser) => (
-                    <div key={followedUser._id} className="following-list">
-                      <div className="card-body">
-                        <img
-                          src={
-                            followedUser.followed.image !== "default.png"
-                              ? globalConfiguration.url +
-                                "user/avatar/" +
-                                followedUser.followed.image
-                              : Avatar
-                          }
-                          alt="avatarImage"
-                          className="avatar-image-following"
-                        />
-
-                        <h5 className="card-title">
-                          {followedUser.followed.nick}
-                        </h5>
-                      </div>
-                    </div>
-                  ))
-                )}
-              </div>
-            </div>
-          </div>
+        <div className="following-container">
+  <h3 className="card-tittle">{t("followingList")}</h3>
+  {following.length === 0 ? (
+    <p>{t("emptyFollowingList")}</p>
+  ) : (
+    <div className="following-list"> {/* Contenedor para todos los usuarios seguidos */}
+      {following.map((followedUser) => (
+        <div key={followedUser._id} className="card-body"> {/* Cada usuario seguido */}
+          <img
+            src={
+              followedUser.followed.image !== "default.png"
+                ? globalConfiguration.url + "user/avatar/" + followedUser.followed.image
+                : Avatar
+            }
+            alt="avatarImage"
+            className="avatar-image-following"
+          />
+          <h5 className="card-title">{followedUser.followed.nick}</h5>
         </div>
+      ))}
+    </div>
+  )}
+</div>
+
+
       </div>
     </div>
   );

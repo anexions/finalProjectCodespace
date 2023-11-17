@@ -40,28 +40,23 @@
   font-size: 0.9rem;
   color: #555;
 }
-.btn-principal,
-.btn-secundario {
-  padding: 8px 15px;
-  border: none;
-  border-radius: 10px;
-  min-width: 60%;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
-}
 
-.btn-principal {
-  background-color: #d77a61;
+
+.btn-principal, .btn-secundario {
+  background-color: #d77a61; /* Color de fondo para btn-principal */
   color: white;
- 
+  min-width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
+  padding: 10px; /* Agrega algo de padding para una mejor apariencia */
+  border: none; /* Opcional: elimina el borde si existe */
+  border-radius: 5px; /* Opcional: para bordes redondeados */
+  margin-bottom: 10px; /* Espacio entre botones si están uno debajo del otro */
 }
 
 .btn-secundario {
-  background-color: #fca311;
-  color: white;
- 
+  background-color: #fca311; /* Color de fondo para btn-secundario */
+  /* Resto de tus estilos, el ancho ya está ajustado en .btn-principal */
 }
+
 
 .btn-principal:hover {
   background-color: #223843;
