@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
 import "./footer.css"; //Estilos del componente
-import LanguageSwitcher from "../permanent/LanguageSwitcher"; //Componente para cambiar el idioma
+import LanguageSwitcher from "../public/LanguageSwitcher"; //Componente para cambiar el idioma
 
 const Footer = () => {
   const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro

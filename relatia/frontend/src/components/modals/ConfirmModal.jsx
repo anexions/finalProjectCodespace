@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import "../permanent/modal.css";
+import "./modal.css";
 
 const ConfirmModal = ({ isOpen, title, handleConfirm, handleCancel }) => {
   const { t } = useTranslation();

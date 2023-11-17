@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import EnLangImage from "../../../assets/img/EnLang.png";
-import EsLangImage from "../../../assets/img/EsLang.png";
+import EnLangImage from "../../assets/img/EnLang.png";
+import EsLangImage from "../../assets/img/EsLang.png";
 //Esto es una función definida en i18n.js viene todo hecho.
 
 function LanguageSwitcher() {

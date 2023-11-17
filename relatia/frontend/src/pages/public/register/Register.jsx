@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom"; //Importamos NavLink para poder usarlo en el botón de login
-import { useForm } from "../../hooks/useForm"; //Importamos el hook useForm para poder usarlo en el formulario
+import { useForm } from "../../../hooks/useForm"; //Importamos el hook useForm para poder usarlo en el formulario
 import { useState } from "react"; //Importamos useState para poder usarlo en los estados
 import { useTranslation } from "react-i18next"; //Importamos la función para las traducciones
-import { ApiRegisterUser } from "../../helpers/ApiService"; //Importamos la función para registrar usuarios (del archivo de todas las peticiones)
+import { ApiRegisterUser } from "../../../helpers/ApiService"; //Importamos la función para registrar usuarios (del archivo de todas las peticiones)
 import "./register.css"; //Importamos el css de Register
 
 const Register = () => {

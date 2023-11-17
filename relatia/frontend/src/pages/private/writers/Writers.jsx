@@ -1,7 +1,7 @@
-import { WriterCard } from "./WriterCard"; //Importamos el componente WriterCard
+import { WriterCard } from "../../../components/writerCard/WriterCard"; //Importamos el componente WriterCard
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
 import "./writers.css"; //Estilos de la página
-import "../permanent/modal.css"; //Estilos del modal
+import "../../../components/modals/modal.css"; //Estilos del modal
 
 const Writers = () => {
   const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro

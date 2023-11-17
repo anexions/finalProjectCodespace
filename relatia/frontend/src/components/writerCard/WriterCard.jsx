@@ -1,19 +1,18 @@
 import { useState, useEffect } from "react"; //Importamos useState y useEffect
-import { globalConfiguration } from "../../../helpers/globalConfiguration"; //Importamos la url de la API
-import Avatar from "../../../assets/img/user.png"; //Importamos la imagen de avatar si el usuario no tiene una cargada.
+import { globalConfiguration } from "../../helpers/globalConfiguration"; //Importamos la url de la API
+import Avatar from "../../assets/img/user.png"; //Importamos la imagen de avatar si el usuario no tiene una cargada.
 import {
   //Importamos las funciones de la API que las saque a otro archivo para que no estuvieran aquí (ApiService.js)
   ApiFetchWriters,
   ApiFollowWriter,
   ApiUnfollowWriter,
   ApiFetchFollowedWriters,
-} from "../../../helpers/ApiService";
-import { getToken } from "../../../helpers/GetToken"; //Importamos la función para obtener el token que también la saqué fuera.
+} from "../../helpers/ApiService";
+import { getToken } from "../../helpers/GetToken"; //Importamos la función para obtener el token que también la saqué fuera.
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
-import Modal from "../permanent/Modal"; //Importamos el componente Modal y lo editamos para que se adapte a lo que necesitamos.
-import "../permanent/modal.css"; //Importamos el css del modal
+import Modal from "../modals/Modal"; //Importamos el componente Modal y lo editamos para que se adapte a lo que necesitamos.
 import "./writerCard.css"; //Importamos el css de este componente
-import "../permanent/modal.css"; //Importamos el css del modal
+import "../modals/modal.css"; //Importamos el css del modal
 
 export const WriterCard = () => {
   const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro

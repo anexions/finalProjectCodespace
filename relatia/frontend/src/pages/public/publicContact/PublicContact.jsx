@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
-import "../loged/contact.css"; //Estilos para el formulario de contacto
+import "../../private/privateContact/contact.css"; //Estilos para el formulario de contacto
 
 const PublicContact = () => {
   const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro

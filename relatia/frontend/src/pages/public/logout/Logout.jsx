@@ -1,6 +1,6 @@
 import { useEffect } from "react"; //Importamos useEffect para ejecutar código cuando se renderiza el componente
 import { useNavigate } from "react-router-dom"; //Hook para navegar entre páginas
-import useAuth from "../../hooks/useAuth"; //Hook personalizado para manejar el estado de la autenticación y tener los datos del usuario en el local storage
+import useAuth from "../../../hooks/useAuth"; //Hook personalizado para manejar el estado de la autenticación y tener los datos del usuario en el local storage
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
 
 const Logout = () => {

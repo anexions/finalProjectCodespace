@@ -4,9 +4,9 @@ import { useForm } from "../../../hooks/useForm"; //Funcion para manejar el esta
 import { globalConfiguration } from "../../../helpers/globalConfiguration"; //Funcion propia para manejar la configuración global
 import { isAuthenticated } from "../../../helpers/authData"; //Funcion propia para manejar la autenticación
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
-import ConfirmModal from "../../layout/permanent/ConfirmModal"; //Funcion para el modal de confirmación
+import ConfirmModal from "../../../components/modals/ConfirmModal"; //Funcion para el modal de confirmación
 import "./publication.css"; //Estilos del componente
-import "../permanent/modal.css"; //Estilos del modal
+import "../../../components/modals/modal.css"; //Estilos del modal
 
 const Publication = () => {
   const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro

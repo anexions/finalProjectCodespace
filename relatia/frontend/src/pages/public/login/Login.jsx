@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom"; // Navlink nos permite navegar entre páginas sin recargar la página completa
-import useForm from "../../hooks/useForm"; //Hook personalizado para capturar los valores de los campos del formulario
-import { globalConfiguration } from "../../helpers/globalConfiguration"; //Un archivo con la url del backend para no repetir tanto.
+import useForm from "../../../hooks/useForm"; //Hook personalizado para capturar los valores de los campos del formulario
+import { globalConfiguration } from "../../../helpers/globalConfiguration"; //Un archivo con la url del backend para no repetir tanto.
 import { useState, useEffect } from "react"; //Hook para manejar estados y el hook para ejecutar código cuando se renderiza el componente
-import useAuth from "../../hooks/useAuth"; //Hook personalizado para manejar el estado de la autenticación y tener los datos del usuario en el local storage
+import useAuth from "../../../hooks/useAuth"; //Hook personalizado para manejar el estado de la autenticación y tener los datos del usuario en el local storage
 import { useNavigate } from "react-router-dom"; //Hook para navegar entre páginas
-import getRandomImage from "../../helpers/RandomImage"; //Función para obtener una imagen aleatoria al recargar la página de login
+import getRandomImage from "../../../helpers/RandomImage"; //Función para obtener una imagen aleatoria al recargar la página de login
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
 import "./login.css"; //Estilos del componente
 import "animate.css"; //Librería para animaciones css

@@ -1,4 +1,4 @@
-import Nav from "../unloged/Nav.jsx";
+import Nav from "./Nav.jsx";
 
 const Header = () => {
   return (

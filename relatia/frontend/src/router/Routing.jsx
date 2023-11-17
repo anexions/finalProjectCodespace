@@ -1,18 +1,18 @@
 import React, { useContext } from "react"; // Importamos useContext para poder usar el contexto de autenticación
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { AuthProvider, AuthContext } from "../context/authProvider";
-import PublicLayout from "../components/layout/unloged/PublicLayout";
-import Login from "../components/user/Login";
-import Register from "../components/user/Register";
-import Contact from "../components/layout/loged/Contact";
-import PublicContact from "../components/layout/unloged/PublicContact";
-import PrivateLayout from "../components/layout/loged/PrivateLayout";
-import Feed from "../components/layout/loged/Feed";
-import Profile from "../components/layout/loged/Profile";
-import Publication from "../components/layout/loged/Publication";
-import Error404 from "../components/layout/permanent/Error404";
-import Logout from "../components/user/Logout";
-import Writers from "../components/layout/loged/Writers";
+import PublicLayout from "../components/public/PublicLayout";
+import Login from "../pages/public/login/Login";
+import Register from "../pages/public/register/Register";
+import Contact from "../pages/private/privateContact/Contact";
+import PublicContact from "../pages/public/publicContact/PublicContact";
+import PrivateLayout from "../components/layout/private/PrivateLayout";
+import Feed from "../pages/private/feed/Feed"
+import Profile from "../pages/private/profile/Profile";
+import Publication from "../pages/private/publications/Publication";
+import Error404 from "../pages/public/error404/Error404";
+import Logout from "../pages/public/logout/Logout";
+import Writers from "../pages/private/writers/Writers";
 
 const Routing = () => {
   const { auth } = useContext(AuthContext); //Con el useContext podemos acceder al contexto de autenticación
