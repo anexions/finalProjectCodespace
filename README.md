@@ -58,7 +58,8 @@ Licencia
 MIT
 
 Contacto
-<a href="https://www.linkedin.com/in/jfernandezfullstack" target="_blank">LinkedIn</a>
+[LinkedIn](https://www.linkedin.com/in/jfernandezfullstack){:target="_blank"}
+
 
 Agradecimientos
 Doy las gracias a Francisco, profesor de Codespace por su apoyo durante el proceso.
