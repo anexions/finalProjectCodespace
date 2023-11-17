@@ -259,7 +259,7 @@ const Publication = () => {
 
   return (
     <div className="publication-container">
-      <div className="modal-container">
+      <div className="">
         <ConfirmModal
           isOpen={isModalOpen}
           title={modalContent.title}
