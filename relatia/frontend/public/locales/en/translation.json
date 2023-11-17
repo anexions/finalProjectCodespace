@@ -111,5 +111,8 @@
   "modalEditTittle": "Are you sure you want to edit this story?",
   "modalConfirm": "Yes",
   "modalCancel": "No",
-  "closeButton": "Close"
+  "closeButton": "Close",
+
+  "blankSpaces": "Cant be blank spaces.",
+  "emailSend": "Email sent!"
 }

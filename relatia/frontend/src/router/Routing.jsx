@@ -6,7 +6,7 @@ import Login from "../pages/public/login/Login";
 import Register from "../pages/public/register/Register";
 import Contact from "../pages/private/privateContact/Contact";
 import PublicContact from "../pages/public/publicContact/PublicContact";
-import PrivateLayout from "../components/layout/private/PrivateLayout";
+import PrivateLayout from "../components/private/PrivateLayout";
 import Feed from "../pages/private/feed/Feed"
 import Profile from "../pages/private/profile/Profile";
 import Publication from "../pages/private/publications/Publication";

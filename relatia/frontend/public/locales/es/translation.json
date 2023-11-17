@@ -111,5 +111,11 @@
   "modalEditTittle": "¿Estás seguro de editar esta historia?",
   "modalConfirm": "Si",
   "modalCancel": "No",
-  "closeButton": "Cerrar"
+  "closeButton": "Cerrar",
+
+  "blankSpaces": "No puede haber espacios en blanco.",
+  "emailSend": "Email enviado correctamente!"
+  
+
+
 }

@@ -44,5 +44,7 @@ router.get("/avatar/:file", userController.getAvatar);
 //Get writers
 router.get("/writers", auth.auth, userController.getWriters);
 
+
+
 //EXPORT MODULE----------------------------------------
 module.exports = router;

@@ -84,3 +84,16 @@ export const ApiRegisterUser = async (userInfo) => {
   return response.json(); // Esto devolverá la promesa con los datos de la respuesta y lo guardará en la variable data de Register.jsx
 };
 
+//FUNCION PARA GUARDAR UN EMAIL AL USUARIO EN PUBLICCONTACT.JSX-----------------------------
+export const ApiSaveEmail = async (userInfo) => {
+  //userInfo es el formulario que le pasamos desde Register.jsx, será un objeto con los datos del usuario.
+  const response = await fetch(`${globalConfiguration.url}email/save-email`, {
+    method: "POST",
+    body: JSON.stringify(userInfo),
+    headers: { "Content-Type": "application/json" },
+  });
+  if (!response.ok) {
+    throw new Error("Error en la petición de guardar email");
+  }
+  return response.json(); // Esto devolverá la promesa con los datos de la respuesta y lo guardará en la variable data de Register.jsx
+};

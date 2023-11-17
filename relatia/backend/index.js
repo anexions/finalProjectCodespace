@@ -24,11 +24,13 @@ app.use('/user/avatar', express.static('./uploads/avatars'));
 const userRoutes = require("./routes/user");
 const publicationRoutes = require("./routes/publication");
 const followRoutes = require("./routes/follow");
+const emailRoutes = require("./routes/email");
 
 //CHARGE ROUTES (To express)-----------------------------
 app.use("/api/user", userRoutes);
 app.use("/api/publication", publicationRoutes);
 app.use("/api/follow", followRoutes);
+app.use("/api/email", emailRoutes);
 
 //START SERVER------------------------------------------
 app.listen(port, () => {
