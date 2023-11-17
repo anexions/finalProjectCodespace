@@ -9,22 +9,18 @@ Tecnologías Usadas:<br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon" style="width:40px; height:40px;">
 
 <strong>Instalación y Configuración:</strong><br>
-<br>
-    1. <strong>Clona el repositorio </strong> (Traerá la carpeta (RELATIA) con tres en su interior: Frontend, backend y database.<br>
-    <br>
-    2. <strong>Debes entrar primero al front</strong> (cd relatia, cd frontend) e instalar todas las dependencias con:<br> npm install<br>
-       <strong>Luego entrar al back</strong> (cd relatia, cd backend) e instalar todas las dependencias con:<br> npm install<br>
-       <br>
-    3. <strong>Vuelve a la carpeta raíz ejecuta:</strong><br> 
-    npm start<br> 
-    <strong>(esto arrancará tanto el front como el server node del back) *Mongod debe estar corriendo de fondo*</strong><br>
-    <br>
-    4. <strong>Importa la base de datos con el comando:</strong><br>
-    mongorestore --db=nombre_nueva_basedatos ./relatia/database/baseDatosProyectoFinal<br> 
-    *Cambia nombre_nueva_basedatos por el que tu quieras o dejalo así*<br>
-    *Hay que tener instaladas las tools de mongo*<br>
-    <strong>El paso 4 no es obligatorio pero si la importas podrás ver los escritores que hay creado de base.</strong>
-      
+<br> 1. <strong>Clona el repositorio </strong> (Traerá la carpeta (RELATIA) con tres en su interior: Frontend, backend y database.<br>
+<br> 2. <strong>Debes entrar primero al front</strong> (cd relatia, cd frontend) e instalar todas las dependencias con:<br> npm install<br>
+<strong>Luego entrar al back</strong> (cd relatia, cd backend) e instalar todas las dependencias con:<br> npm install<br>
+<br> 3. <strong>Vuelve a la carpeta raíz ejecuta:</strong><br>
+npm start<br>
+<strong>(esto arrancará tanto el front como el server node del back) _Mongod debe estar corriendo de fondo_</strong><br>
+<br> 4. <strong>Importa la base de datos con el comando:</strong><br>
+mongorestore --db=nombre_nueva_basedatos ./relatia/database/baseDatosProyectoFinal<br>
+_Cambia nombre_nueva_basedatos por el que tu quieras o dejalo así_<br>
+_Hay que tener instaladas las tools de mongo_<br>
+<strong>El paso 4 no es obligatorio pero si la importas podrás ver los escritores que hay creado de base.</strong>
+
     Descargar MongoDB (Base de datos):<br>
     <a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a></p>
 
@@ -34,6 +30,7 @@ Tecnologías Usadas:<br>
     Uso de la APP:<br>
     <br>
     Registra una cuenta y luego loguéate con ella.<br>
+
   <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/1d17dd2f-d7b3-406f-9af6-133537c12572) />
     La primera vez que entres, no verás publicaciones. Debes dirigirte a la sección de escritores ( y si has importado la base de datos podrás ver a otros escritores para seguirlos)
    <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/e5081322-4d86-428a-bce5-1d663b8621b8)/>
@@ -53,6 +50,7 @@ Tecnologías Usadas:<br>
 
     <strong>Contribuciones:</strong><br>
     Cualquier contribución o feedback será bienvenido.</p><br>
+
 <br>
    <strong> Contacto:</strong> <br>
    <a href="https://www.linkedin.com/in/jfernandezfullstack/" target="_blank">LinkedIn</a></p>
@@ -105,10 +103,10 @@ Seguridad y Autenticación: Proporciona información sobre las medidas de seguri
 
 Testing: Explica cómo realizar pruebas en el back-end, incluyendo cualquier framework o herramienta de prueba utilizada.
 
-Despliegue: 
+Despliegue:
 
 General
 Licencia: MIT
 
-Agradecimientos: 
+Agradecimientos:
 Agradezco la ayuda de Codespace y del profesor Francisco por el apoyo recibido.
