@@ -25,13 +25,14 @@ cd frontend
 npm install
 
 # Instala las dependencias en el backend
-cd ../backend
+cd cd..
+cd backend
 npm install
 
 # Inicia el servidor del frontend y backend en un solo comando y una sola terminal
 # Tienes que ejecuar el comando en la carpeta raiz del proyecto.
+Usa cd.. hasta volver a la raiz y luego:
 npm start
-
 #Para poder ejecutar el proyecto debes tener Mongod corriendo de fondo.
 
 # Opcional, volcar base de datos
@@ -41,10 +42,16 @@ Debes tener algunas herramientas de MongoDB instaladas (mongoRestore)
 mongorestore --db=nombre_nueva_basedatos ./relatia/database/baseDatosProyectoFinal
 
 Uso
+
 Crea una cuenta en la sección Registro
+
 Loguea y automáticamente entrarás al feed/inicio (no veras historias)
-En la sección writers/escritores podrás seguir a los usuarios y al volver a inicio podrás leer sus hitorias.
+
+En la sección writers/escritores (si has importado la base de datos) podrás seguir a los usuarios y al volver a inicio podrás leer sus hitorias.
+Si no has importado la base de datos, puedes crear dos usuarios y así ves el funcionamiento.
+
 Puedes publicar tus propias historias en la seccion publish/publicar
+
 En la seccion usuario/profile podrás cambiar tu imagen y biografía para mostrarla en tu tarjeta de escritor.
 
 Licencia
