@@ -4,10 +4,9 @@ import { AuthProvider, AuthContext } from "../context/authProvider";
 import PublicLayout from "../components/public/PublicLayout";
 import Login from "../pages/public/login/Login";
 import Register from "../pages/public/register/Register";
-import Contact from "../pages/private/privateContact/Contact";
 import PublicContact from "../pages/public/publicContact/PublicContact";
 import PrivateLayout from "../components/private/PrivateLayout";
-import Feed from "../pages/private/feed/Feed"
+import Feed from "../pages/private/feed/Feed";
 import Profile from "../pages/private/profile/Profile";
 import Publication from "../pages/private/publications/Publication";
 import Error404 from "../pages/public/error404/Error404";
@@ -40,7 +39,6 @@ const Routing = () => {
             <Route path="feed" element={<Feed />} />
             <Route path="profile" element={<Profile />} />
             <Route path="writers" element={<Writers />} />
-            <Route path="contact" element={<Contact />} />
             <Route path="publication" element={<Publication />} />
             <Route path="logout" element={<Logout />} />
           </Route>

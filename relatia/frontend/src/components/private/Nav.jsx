@@ -2,8 +2,6 @@ import { NavLink } from "react-router-dom";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
 
-
-
 const Navigation = () => {
   const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro
   return (
@@ -38,12 +36,6 @@ const Navigation = () => {
           <NavItem>
             <NavLink to="/social/profile" className="nav-link">
               {t("navProfile")}
-            </NavLink>
-          </NavItem>
-
-          <NavItem>
-            <NavLink to="/social/contact" className="nav-link">
-              {t("navContact")}
             </NavLink>
           </NavItem>
 

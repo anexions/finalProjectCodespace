@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"; //Funcion para las traducciones
-import "../../private/privateContact/contact.css"; //Estilos para el formulario de
+import "./contact.css"; //Estilos para el formulario de
 import { useState } from "react"; //Importamos useState para poder usar el estado
 import useForm from "../../../hooks/useForm"; //Hook personalizado para capturar los valores de los campos del formulario
 import { ApiSaveEmail } from "../../../helpers/ApiService"; //Importamos la función para registrar usuarios (del archivo de todas las peticiones)
