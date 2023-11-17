@@ -1,12 +1,12 @@
 <h1> <strong>Bienvenido a mi Proyecto Final en Codespace.</strong> </h1>
 Relatia, Donde nacen las historias!<br>
-Relatia es una red social para escritores. Crea y comparte relatos con tus seguidores.</p>
+Relatia es una red social para escritores. Crea y comparte relatos con tus seguidores. 
 
 <h2><strong> FRONTEND </strong></h2>
 Tecnologías Usadas:<br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Icon" style="width:40px; height:40px;">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" style="width:40px; height:40px;">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon" style="width:40px; height:40px;">
+REACT<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Icon" style="width:40px; height:40px;"> 
+CSS<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" style="width:40px; height:40px;"> 
+BOOTSTRAP<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon" style="width:40px; height:40px;"> 
 
 <strong>Instalación y Configuración:</strong><br>
 <br>
@@ -26,10 +26,10 @@ Tecnologías Usadas:<br>
     <strong>El paso 4 no es obligatorio pero si la importas podrás ver los escritores que hay creado de base.</strong>
       
     Descargar MongoDB (Base de datos):<br>
-    <a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a></p>
+    <a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a> 
 
     Instalar database tools de mongo:<br>
-    <a href="https://www.mongodb.com/try/download/database-tools" target="_blank">https://www.mongodb.com/try/download/database-tools</a></p>
+    <a href="https://www.mongodb.com/try/download/database-tools" target="_blank">https://www.mongodb.com/try/download/database-tools</a> 
 
     Uso de la APP:<br>
     <br>
@@ -52,14 +52,13 @@ Tecnologías Usadas:<br>
     <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/7af74830-a275-49e5-9bb9-843a291d5770)/>
 
     <strong>Contribuciones:</strong><br>
-    Cualquier contribución o feedback será bienvenido.</p><br>
+    Cualquier contribución o feedback será bienvenido. <br>
 <br>
-   <strong> Contacto:</strong> <br>
-   <a href="https://www.linkedin.com/in/jfernandezfullstack/" target="_blank">LinkedIn</a></p>
+   
 
    <h2> <strong> BACKEND </strong></h2>
     Descripción del Back-End:<br>
-    El back proporciona al front una serie de endpoints para poder loguear usuarios, registrarlos, etc. A continuación se muestra en detalle:</p>
+    El back proporciona al front una serie de endpoints para poder loguear usuarios, registrarlos, etc. A continuación se muestra en detalle: 
 
     <strong> ENDPOINTS Y FUNCIONES </strong><br>
     Usuarios: Registrar, loguear, ver perfil, listar usuarios, actualizar, seguir, dejar de seguir, mostrar lista de seguidores.<br>
@@ -73,42 +72,53 @@ Tecnologías Usadas:<br>
     router.get("/list/:page?", auth.auth, userController.userList); //? means optional parameter, if not, page=1<br>
     //Update user<br>
     router.put("/update/", auth.auth, userController.updateUser);<br>
-    //Save follow<br>
-    router.post("/save", auth.auth, follow
+   //Save follow<br>
+router.post("/save", auth.auth, followController.saveFollow);<br>
+//Unfollow user<br>
+router.delete("/unfollow/:id", auth.auth, followController.deleteFollow);<br>
+//Following<br>
+router.get("/following/:id?/:page?", auth.auth, followController.following);<br>
+//Guardar publicaciones<br>
+router.post("/save", auth.auth, publicationController.savePublication);<br>
+//Mostrar una publicación<br>
+router.get("/detail/:id", auth.auth, publicationController.detailPublication);<br>
+//Delete publication<br>
+router.delete("/delete/:id", auth.auth, publicationController.deletePublication);<br>
+//Edit publication<br>
+router.put("/edit/:id", auth.auth, publicationController.editPublication);<br>
+<br>
+Emails: Guardamos un registro de los emails recibidos.<br>
+router.post('/save-email', saveEmail);<br>
+<br>
+Publicaciones: Crear, editar o eliminar.<br>
+//Guardar publicaciones<br>
+router.post("/save", auth.auth, publicationController.savePublication);<br>
+//Mostrar una publicación<br>
+router.get("/detail/:id", auth.auth, publicationController.detailPublication);<br>
+//Delete publication<br>
+router.delete("/delete/:id", auth.auth, publicationController.deletePublication);<br>
+//Edit publication<br>
+router.put("/edit/:id", auth.auth, publicationController.editPublication);<br>
 
-router.post("/save", auth.auth, followController.saveFollow);
-//Unfollow user
-router.delete("/unfollow/:id", auth.auth, followController.deleteFollow);
-//Following
-router.get("/following/:id?/:page?", auth.auth, followController.following);
-//Guardar publicaciones
-router.post("/save", auth.auth, publicationController.savePublication);
-//Mostrar una publicación
-router.get("/detail/:id", auth.auth, publicationController.detailPublication);
-//Delete publication
-router.delete("/delete/:id", auth.auth, publicationController.deletePublication);
-//Edit publication
-router.put("/edit/:id", auth.auth, publicationController.editPublication);
+Tecnologías:
+<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<br>
 
-Emails: Guardamos un registro de los emails recibidos.
-router.post('/save-email', saveEmail);
-
-Publicaciones: Crear, editar o eliminar.
-
-Tecnologías y Herramientas: Lista las tecnologías, lenguajes de programación, bases de datos y herramientas utilizadas en el back-end.
-
-Instalación y Configuración del Servidor: Detalla los pasos para configurar el entorno del servidor, incluyendo la instalación de dependencias y la configuración de bases de datos.
-
-APIs y Endpoints: Si tu back-end expone APIs, documenta los endpoints disponibles, métodos HTTP, parámetros esperados y formatos de respuesta.
-
-Seguridad y Autenticación: Proporciona información sobre las medidas de seguridad implementadas, como autenticación y autorización.
-
-Testing: Explica cómo realizar pruebas en el back-end, incluyendo cualquier framework o herramienta de prueba utilizada.
-
-Despliegue: 
-
-General
+<strong>Instalación:</strong><br>
+Al realizar los pasos descritos en el front, automáticamente arrancarás el back.<br>
+<br>
+<strong>Seguridad y Autenticación:</strong> <br>
+<br>
+La app tiene un sistema de seguridad con JWT, al crear la cuenta tus datos estarán protegidos durante la sesión.
+<br>
+<strong>Testing:</strong> <br>
+Puedes realizar rest de endpoints usando Postman.
+<br>
+<strong>General</strong><br>
 Licencia: MIT
-
-Agradecimientos: 
+<br>
+<strong>Agradecimientos: </strong><br>
 Agradezco la ayuda de Codespace y del profesor Francisco por el apoyo recibido.
+<strong> Contacto:</strong> <br>
+   <a href="https://www.linkedin.com/in/jfernandezfullstack/" target="_blank">LinkedIn</a> 
