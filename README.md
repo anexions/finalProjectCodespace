@@ -1,6 +1,6 @@
 # RELATIA, DONDE NACEN LAS HISTORIAS!
 
-Relatia es una red social para escritores donde podrás compartir tus realtos o cualquier pensamiento que se te venga a la mente.
+Relatia es una red social para escritores donde podrás compartir tus relatos o cualquier pensamiento que se te venga a la mente.
 
 Nuestra red social se basa en el sistema de seguimiento, cuantas más personas sigas, más contenido podrás leer.
 
@@ -50,7 +50,7 @@ Loguea y automáticamente entrarás al feed/inicio (no veras historias)
 En la sección writers/escritores (si has importado la base de datos) podrás seguir a los usuarios y al volver a inicio podrás leer sus hitorias.
 Si no has importado la base de datos, puedes crear dos usuarios y así ves el funcionamiento.
 
-Puedes publicar tus propias historias en la seccion publish/publicar
+Puedes publicar tus propias historias en la seccion publish/publicar (además de editarlas o borrarlas)
 
 En la seccion usuario/profile podrás cambiar tu imagen y biografía para mostrarla en tu tarjeta de escritor.
 
