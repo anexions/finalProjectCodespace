@@ -10,6 +10,8 @@ Nuestra red social se basa en el sistema de seguimiento, cuantas más personas s
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)
 ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=for-the-badge)
 
+Contacto
+[LinkedIn](https://www.linkedin.com/in/jfernandezfullstack)
 
 Instalación
 
@@ -56,9 +58,6 @@ En la seccion usuario/profile podrás cambiar tu imagen y biografía para mostra
 
 Licencia
 MIT
-
-Contacto
-[LinkedIn](https://www.linkedin.com/in/jfernandezfullstack)
 
 Agradecimientos
 Doy las gracias a Francisco, profesor de Codespace por su apoyo durante el proceso.
