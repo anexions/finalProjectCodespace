@@ -1,9 +1,9 @@
 <h1> <strong>Bienvenido a mi Proyecto Final en Codespace.</strong> </h1>
-<p>Relatia, Donde nacen las historias!<br>
+Relatia, Donde nacen las historias!<br>
 Relatia es una red social para escritores. Crea y comparte relatos con tus seguidores.</p>
 
-<strong> FRONTEND </strong>
-<p>Tecnologías Usadas:<br>
+<h2><strong> FRONTEND </strong></h2>
+Tecnologías Usadas:<br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Icon" style="width:40px; height:40px;">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" style="width:40px; height:40px;">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon" style="width:40px; height:40px;">
@@ -25,46 +25,43 @@ Relatia es una red social para escritores. Crea y comparte relatos con tus segui
     *Hay que tener instaladas las tools de mongo*<br>
     <strong>El paso 4 no es obligatorio pero si la importas podrás ver los escritores que hay creado de base.</strong>
       
-
     Descargar MongoDB (Base de datos):<br>
-    <p><a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a></p>
+    <a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a></p>
 
     Instalar database tools de mongo:<br>
-   <p> <a href="https://www.mongodb.com/try/download/database-tools" target="_blank">https://www.mongodb.com/try/download/database-tools</a></p>
+    <a href="https://www.mongodb.com/try/download/database-tools" target="_blank">https://www.mongodb.com/try/download/database-tools</a></p>
 
-    <p>Uso de la APP:<br>
+    Uso de la APP:<br>
     <br>
     Registra una cuenta y luego loguéate con ella.<br>
   <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/1d17dd2f-d7b3-406f-9af6-133537c12572) />
     La primera vez que entres, no verás publicaciones. Debes dirigirte a la sección de escritores ( y si has importado la base de datos podrás ver a otros escritores para seguirlos)
    <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/e5081322-4d86-428a-bce5-1d663b8621b8)/>
     <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/6af96900-041d-4cca-9fe5-39a5f40334f5)/>
-
     Una vez los sigas, podrás leer sus historias en el feed.
-     <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/43cc41ff-d1e1-439b-b8c4-bbdd94978a4f)/>
+    <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/43cc41ff-d1e1-439b-b8c4-bbdd94978a4f)/>
 
 <br>
-    *PUBLICAR UNA HISTORIA*
+    <strong>PUBLICAR UNA HISTORIA</strong><br>
     Dirigete a la seccion Publicar y rellena los campos del formulario. Tus historias aparecerán debajo donde podrás editarlas o eliminarlas.
     <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/40a6e7ac-3c7f-4ac7-a73b-71fcc1ba8d01)/>
-    Una vez las publiques, tus seguidores podrán leerla.
+    Una vez las publiques, tus seguidores podrán leerla.<br>
 <br>
-    *CAMBIAR DATOS DE USUARIO*
+    <strong>CAMBIAR DATOS DE USUARIO</strong><br>
     En la sección usuario podrás cambiar la imagen de perfil y la bio que se mostrará en tu tarjeta de escritor a otros usuarios.
     <img src=https://github.com/anexions/finalProjectCodespace/assets/135029821/7af74830-a275-49e5-9bb9-843a291d5770)/>
 
-    <p>Contribuciones:<br>
-    Cualquier contribución o feedback será bienvenido.</p>
+    <strong>Contribuciones:</strong><br>
+    Cualquier contribución o feedback será bienvenido.</p><br>
+<br>
+   <strong> Contacto:</strong> <br>
+   <a href="https://www.linkedin.com/in/jfernandezfullstack/" target="_blank">LinkedIn</a></p>
 
-    <p>Contacto: <a href="https://www.linkedin.com/in/jfernandezfullstack/" target="_blank">LinkedIn</a></p>
-</div>
-
-<div class="section">
-    <strong> BACKEND </strong>
-    <p>Descripción del Back-End:<br>
+   <h2> <strong> BACKEND </strong></h2>
+    Descripción del Back-End:<br>
     El back proporciona al front una serie de endpoints para poder loguear usuarios, registrarlos, etc. A continuación se muestra en detalle:</p>
 
-    <p><strong> ENDPOINTS Y FUNCIONES </strong><br>
+    <strong> ENDPOINTS Y FUNCIONES </strong><br>
     Usuarios: Registrar, loguear, ver perfil, listar usuarios, actualizar, seguir, dejar de seguir, mostrar lista de seguidores.<br>
     //User register<br>
     router.post("/register", userController.register);<br>
