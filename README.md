@@ -13,7 +13,6 @@ Nuestra red social se basa en el sistema de seguimiento, cuantas más personas s
 
 Instalación
 
-
 ```bash
 # Clona este repositorio
 git clone https://github.com/anexions/finalProjectCodespace.git
@@ -33,16 +32,22 @@ npm install
 # Tienes que ejecuar el comando en la carpeta raiz del proyecto.
 npm start
 
+#Para poder ejecutar el proyecto debes tener Mongod corriendo de fondo.
+
+# Opcional, volcar base de datos
+Puedes traer el contenido de la base de datos usando este comando (en la carpeta raíz)
+Debes tener algunas herramientas de MongoDB instaladas (mongoRestore)
+
+mongorestore --db=nombre_nueva_basedatos ./relatia/database/baseDatosProyectoFinal
 
 Uso
 Instrucciones sobre cómo usar tu proyecto, cualquier comando que los usuarios deben conocer.
-
 
 Licencia
 MIT
 
 Contacto
-Si tienes alguna pregunta, no dudes en contactarme a través de LinkedIn.
+<a href="https://www.linkedin.com/in/jfernandezfullstack" target="_blank">LinekdIn</a>
 
 Agradecimientos
 Doy las gracias a Francisco, profesor de Codespace por su apoyo durante el proceso.
