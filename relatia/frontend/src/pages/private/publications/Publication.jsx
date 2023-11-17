@@ -209,6 +209,8 @@ const Publication = () => {
 
   const editPublication = async (e) => {
     const publicationId = e.target.dataset.id; // Obtener el ID desde el evento
+     // Scroll hacia arriba
+     window.scrollTo(0, 0);
     //Abrimos el modal de confirmación
     openModal(t("modalEditTittle"));
     setHandleconfirm("handleConfirmEdit");
