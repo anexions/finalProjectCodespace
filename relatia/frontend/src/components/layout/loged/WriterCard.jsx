@@ -121,16 +121,14 @@ export const WriterCard = () => {
           {t(error)}
         </div>
       )}
+
       <Modal isOpen={isModalOpen} closeModal={closeModal}>
         <h2>{t(modalMessage)}</h2>
-        <button
-          className="btn-principal"
-          onClick={closeModal}
-          aria-label="Close"
-        >
-          <span aria-hidden="true">&times;</span>
+        <button className="modal-button" onClick={closeModal}>
+          {t("closeButton")}
         </button>
       </Modal>
+
       {writers.length > 0 ? (
         <div className="writer-card">
           {writers.map((writer) => (

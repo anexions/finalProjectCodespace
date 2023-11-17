@@ -257,12 +257,14 @@ const Publication = () => {
 
   return (
     <div className="publication-container">
-      <ConfirmModal
-        isOpen={isModalOpen}
-        title={modalContent.title}
-        handleConfirm={editOrDeletePublication}
-        handleCancel={() => setModalOpen(false)}
-      />
+      <div className="modal-container">
+        <ConfirmModal
+          isOpen={isModalOpen}
+          title={modalContent.title}
+          handleConfirm={editOrDeletePublication}
+          handleCancel={() => setModalOpen(false)}
+        />
+      </div>
 
       <h1 className="publication-title">{t("publicationTitle")}</h1>
 

@@ -107,7 +107,9 @@
   "changePasswordSuccess": "Contraseña cambiada correctamente!",
 
   "closeSesion": "Cerrando sesión",
-  "modaleditTittle": "¿quieres editar este relato?",
+  "modalDeleteTittle": "¿Estás seguro que quieres eliminar esta historia?",
+  "modalEditTittle": "¿Estás seguro de editar esta historia?",
   "modalConfirm": "Si",
-  "modalCancel": "No"
+  "modalCancel": "No",
+  "closeButton": "Cerrar"
 }

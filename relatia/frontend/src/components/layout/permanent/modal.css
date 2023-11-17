@@ -1,3 +1,11 @@
+.modal-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  padding: 20px;
+
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -14,6 +22,14 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
+}
+
+.modal-btn {
+  background-color: #d77a61;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto;
 }
 
 .modal-close-btn {
@@ -34,31 +50,67 @@
   flex-direction: column; /* Alinea los elementos en una columna */
   font-size: 1rem; /* Ajustar tamaño de fuente si es necesario */
   color: #ffffff; /* Color oscuro para facilidad de lectura */
+  background-color: #ffffff;
   /* Otros estilos según necesidades */
 }
 
 .modal-content h2 {
-  color: #ffffff; /* Color claro para facilidad de lectura */
+  color: black; /* Color claro para facilidad de lectura */
   font-weight: 300;
-  text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  
+}
+.container-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
 }
 
-
-.modal-content button {
-  width: 30%;
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
-  margin: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
-.modal-content button span {
-  font-size: 20px;
-}
-
-.modal-content button:hover {
+.modal-button {
   background-color: #d77a61;
   color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 3%;
+  min-width: 50px;
+  
 }
+.modal-button:hover {
+  background-color: #223843;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 50px;
+}
+
+
+/* Pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+  .modal-container {
+    /* Ajustes para tabletas */
+    padding: 15px;
+  }
+  .modal-content {
+    font-size: 0.9rem;
+  }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .modal-container {
+    /* Ajustes para móviles */
+    padding: 10px;
+  }
+  .modal-content {
+    font-size: 0.8rem;
+  }
+  .modal-button {
+    min-width: 40px;
+  }
+}
+
+
+
+

@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
 import { useTranslation } from "react-i18next";
+import "../permanent/modal.css";
 
 const ConfirmModal = ({ isOpen, title, handleConfirm, handleCancel }) => {
   const { t } = useTranslation();
@@ -10,10 +11,16 @@ const ConfirmModal = ({ isOpen, title, handleConfirm, handleCancel }) => {
 
   return (
     <div className="modal-overlay">
-      <div className="modal-content">
-        <h2>{title || t("areYouSure")}</h2>
-        <button onClick={handleConfirm}>{t("modalConfirm")}</button>
-        <button onClick={handleCancel}>{t("modalCancel")}</button>
+      <div className="modal-container">
+        <h2>{title}</h2>
+        <div className="container-btn">
+          <button className="modal-button" onClick={handleConfirm}>
+            {t("modalConfirm")}
+          </button>
+          <button className="modal-button" onClick={handleCancel}>
+            {t("modalCancel")}
+          </button>
+        </div>
       </div>
     </div>
   );

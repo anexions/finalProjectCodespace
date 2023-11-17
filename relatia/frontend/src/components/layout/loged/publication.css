@@ -11,7 +11,7 @@
 }
 
 .publication-container-stories {
-  width: 100%; /* Ajusta este valor según lo que consideres apropiado para tu diseño */
+  width: auto; /* Ajusta este valor según lo que consideres apropiado para tu diseño */
   padding: 20px;
   margin-bottom: 2%;
   border-radius: 8px;
@@ -141,7 +141,7 @@
 @media (max-width: 480px) {
   .publication-container,
   .publication-container-stories {
-    width: 95%; /* Ocupar casi todo el ancho en pantallas pequeñas */
+    width: auto; /* Ajuste del ancho para pantallas más pequeñas */
     padding: 10px; /* Reducción del padding */
   }
 

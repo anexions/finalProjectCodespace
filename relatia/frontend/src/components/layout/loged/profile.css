@@ -50,9 +50,11 @@
   margin: auto;
 }
 
-.followingList {
-  max-width: 100%; /* Hacer la lista más pequeña */
-  margin: auto;
+.following-data-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: auto;
 }
 
 .avatar-image-following {
@@ -126,7 +128,7 @@
 /* Pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
   .profile-container {
-    width: 100%; /* Ajustar para pantallas móviles */
+    width: auto; /* Ajustar para pantallas móviles */
   }
 .title-image-container{
   display: flex;
@@ -159,7 +161,7 @@
   .card-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
   }
 
   .card-body h5 {
