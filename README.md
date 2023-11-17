@@ -41,7 +41,11 @@ Debes tener algunas herramientas de MongoDB instaladas (mongoRestore)
 mongorestore --db=nombre_nueva_basedatos ./relatia/database/baseDatosProyectoFinal
 
 Uso
-Instrucciones sobre cómo usar tu proyecto, cualquier comando que los usuarios deben conocer.
+Crea una cuenta en la sección Registro
+Loguea y automáticamente entrarás al feed/inicio (no veras historias)
+En la sección writers/escritores podrás seguir a los usuarios y al volver a inicio podrás leer sus hitorias.
+Puedes publicar tus propias historias en la seccion publish/publicar
+En la seccion usuario/profile podrás cambiar tu imagen y biografía para mostrarla en tu tarjeta de escritor.
 
 Licencia
 MIT
