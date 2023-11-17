@@ -9,32 +9,48 @@ Relatia es una red social para escritores. Crea y comparte relatos con tus segui
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon" style="width:40px; height:40px;">
 
 <strong>Instalación y Configuración:</strong><br>
+<br>
     1. <strong>Clona el repositorio </strong> (Traerá la carpeta (RELATIA) con tres en su interior: Frontend, backend y database.<br>
+    <br>
     2. <strong>Debes entrar primero al front</strong> (cd relatia, cd frontend) e instalar todas las dependencias con:<br> npm install<br>
        <strong>Luego entrar al back</strong> (cd relatia, cd backend) e instalar todas las dependencias con:<br> npm install<br>
+       <br>
     3. <strong>Vuelve a la carpeta raíz ejecuta:</strong><br> 
     npm start<br> 
     <strong>(esto arrancará tanto el front como el server node del back) *Mongod debe estar corriendo de fondo*</strong><br>
+    <br>
     4. <strong>Importa la base de datos con el comando:</strong><br>
     mongorestore --db=nombre_nueva_basedatos ./relatia/database/baseDatosProyectoFinal<br> 
     *Cambia nombre_nueva_basedatos por el que tu quieras o dejalo así*<br>
     *Hay que tener instaladas las tools de mongo*<br>
     <strong>El paso 4 no es obligatorio pero si la importas podrás ver los escritores que hay creado de base.</strong>
       
-<div class="section">
+
     Descargar MongoDB (Base de datos):<br>
     <p><a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a></p>
-  <div>
-<div class="section">
+
     Instalar database tools de mongo:<br>
    <p> <a href="https://www.mongodb.com/try/download/database-tools" target="_blank">https://www.mongodb.com/try/download/database-tools</a></p>
-</div>
+
     <p>Uso de la APP:<br>
-    Loguea o registra una cuenta.<br>
-    La primera vez que entres no verás usuarios, dirígete a (según el idioma) writer o escritores y comienza a seguirlos.<br>
-    Una vez seguidos, podrás comenzar a leer sus historias,<br>
-    Publicar una historia: Dirígete a Publicar, rellena los campos y tus historias aparecerán debajo. Puedes editarla, o eliminarlas desde ahí.<br>
-    En la sección usuario podrás cambiar tu imagen de perfil que se mostrará a los usuarios, tu nombre o biografía.
+    <br>
+    Registra una cuenta y luego loguéate con ella.<br>
+    ![image](https://github.com/anexions/finalProjectCodespace/assets/135029821/1d17dd2f-d7b3-406f-9af6-133537c12572)
+    La primera vez que entres, no verás publicaciones. Debes dirigirte a la sección de escritores ( y si has importado la base de datos podrás ver a otros escritores para seguirlos)
+    ![image](https://github.com/anexions/finalProjectCodespace/assets/135029821/e5081322-4d86-428a-bce5-1d663b8621b8)
+    ![image](https://github.com/anexions/finalProjectCodespace/assets/135029821/6af96900-041d-4cca-9fe5-39a5f40334f5)
+
+    Una vez los sigas, podrás leer sus historias en el feed.
+    ![image](https://github.com/anexions/finalProjectCodespace/assets/135029821/facf37d2-9946-4552-9041-22fa3178fb7a)
+<br>
+    *PUBLICAR UNA HISTORIA*
+    Dirigete a la seccion Publicar y rellena los campos del formulario. Tus historias aparecerán debajo donde podrás editarlas o eliminarlas.
+    ![image](https://github.com/anexions/finalProjectCodespace/assets/135029821/40a6e7ac-3c7f-4ac7-a73b-71fcc1ba8d01)
+    Una vez las publiques, tus seguidores podrán leerla.
+<br>
+    *CAMBIAR DATOS DE USUARIO*
+    En la sección usuario podrás cambiar la imagen de perfil y la bio que se mostrará en tu tarjeta de escritor a otros usuarios.
+    ![image](https://github.com/anexions/finalProjectCodespace/assets/135029821/7af74830-a275-49e5-9bb9-843a291d5770)
 
     <p>Contribuciones:<br>
     Cualquier contribución o feedback será bienvenido.</p>
