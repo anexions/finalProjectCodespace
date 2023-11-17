@@ -56,6 +56,10 @@
   margin-bottom: 10px;
 }
 
+.btn-principal{
+  min-width: max-content;
+}
+
 .following-list {
   display: flex; /* Establece los elementos en línea */
   flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas más pequeñas */
