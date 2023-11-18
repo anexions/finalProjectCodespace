@@ -310,7 +310,7 @@ const Profile = () => {
                   </strong>
                 )}
               </div>
-              <button className="btn-principal" onClick={saveFormChanges}>
+              <button className="btnPersonalizado" onClick={saveFormChanges}>
                 {t("saveChangesButton")}
               </button>
               <div className="mb-3">
@@ -352,7 +352,7 @@ const Profile = () => {
         </div>
 
         <div className="following-container">
-  <h3 className="card-tittle">{t("followingList")}</h3>
+  <h3 className="card-tittle followingTittle">{t("followingList")}</h3>
   {following.length === 0 ? (
     <p>{t("emptyFollowingList")}</p>
   ) : (
