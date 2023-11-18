@@ -56,6 +56,43 @@ Puedes publicar tus propias historias en la seccion publish/publicar (además de
 
 En la seccion usuario/profile podrás cambiar tu imagen y biografía para mostrarla en tu tarjeta de escritor.
 
+Endpoints y funciones
+
+Usuarios (Registrar, loguear, ver perfil, listar, editar, seguir, dejar de seguir, listar seguidores.)
+
+//User register
+router.post("/register", userController.register);
+//login
+router.post("/login", userController.login);
+//Profile
+router.get("/profile/:id", auth.auth, userController.profile); 
+//User list
+router.get("/list/:page?", auth.auth, userController.userList); 
+//Update user
+router.put("/update/", auth.auth, userController.updateUser);
+//Save follow
+router.post("/save", auth.auth, followController.saveFollow);
+//Unfollow user
+router.delete("/unfollow/:id", auth.auth, followController.deleteFollow);
+//Following
+router.get("/following/:id?/:page?", auth.auth, followController.following);
+
+Email (Enviar)
+
+//Send email
+router.post('/save-email', saveEmail);
+
+Publicaciones (Crear, editar, eliminar, *Me gusta y no megusta (en proceso))
+
+//Guardar publicaciones
+router.post("/save", auth.auth, publicationController.savePublication);
+//Mostrar una publicación
+router.get("/detail/:id", auth.auth, publicationController.detailPublication);
+//Delete publication
+router.delete("/delete/:id", auth.auth, publicationController.deletePublication);
+//Edit publication
+router.put("/edit/:id", auth.auth, publicationController.editPublication);
+
 Licencia
 MIT
 
