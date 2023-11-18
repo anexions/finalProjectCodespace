@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <Routing />
+      <Routing /> {/* Llamamos al componente de rutas */}
     </div>
   );
 }

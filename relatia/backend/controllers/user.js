@@ -204,7 +204,7 @@ const userList = async (req, res) => {
 
 const updateUser = async (req, res) => {
   let userId = req.user.id; // Request user identity
-  let { name, bio, password, currentPassword } = req.body; 
+  let { name, bio, password, currentPassword } = req.body;
 
   try {
     // If user wants to change the password
@@ -240,12 +240,10 @@ const updateUser = async (req, res) => {
     if (password) {
       updatedFields.password = password;
     }
-    
-    const updatedUser = await User.findByIdAndUpdate(
-      userId,
-      updatedFields,
-      { new: true }
-    );
+
+    const updatedUser = await User.findByIdAndUpdate(userId, updatedFields, {
+      new: true,
+    });
 
     return res.status(200).send({
       status: "success",
@@ -260,8 +258,6 @@ const updateUser = async (req, res) => {
     });
   }
 };
-
-
 
 //CHANGE AVATAR FUNCTION------------------------------
 
@@ -301,7 +297,7 @@ const upload = async (req, res) => {
 
     //Save file (if it is correct)
     const userUpdated = await User.findByIdAndUpdate(
-      {_id: req.user.id},
+      { _id: req.user.id },
       { image: req.file.filename },
       { new: true } // new: true para devolver el nuevo usuario
     );

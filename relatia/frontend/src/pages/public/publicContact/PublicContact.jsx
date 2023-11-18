@@ -7,17 +7,15 @@ import { ApiSaveEmail } from "../../../helpers/ApiService"; //Importamos la func
 const PublicContact = () => {
   const { t } = useTranslation();
   const { form, changed } = useForm({
-    email: '', // Inicializa el estado del formulario con valores por defecto
-    message: '',
+    email: "", // Inicializa el estado del formulario con valores por defecto
+    message: "",
   }); //Llamamos al hook para capturar los valores de los campos del formulario, form es el objeto con los valores y changed es la función p
   const [message, setMessage] = useState(null); //Mensaje de confirmación de envío
-  
-  
 
   const saveEmail = async (e) => {
     e.preventDefault(); //Prevenimos el recargado de la página
-     // Validación de campos vacíos
-     if (!form.email.trim() || !form.message.trim()) {
+    // Validación de campos vacíos
+    if (!form.email.trim() || !form.message.trim()) {
       setMessage("errorBlankSpaces");
       return;
     }

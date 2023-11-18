@@ -62,7 +62,7 @@ const Publication = () => {
   }, []);
 
   //FUNCION PARA GUARDAR PUBLICACIONES-------------------------------------------------
-  //Vamos a diferenciar si se edita o es una nueva (Haremos un PUT o un POST)
+  //Voy a diferenciar si se edita o es una nueva (Haremos un PUT o un POST)
   const savePublication = async (e) => {
     e.preventDefault();
 
@@ -171,7 +171,6 @@ const Publication = () => {
     if (!publicationIdToDelete) return;
 
     const token = localStorage.getItem("token");
-    // Asume que necesitas autenticación para realizar la acción
     if (!token) {
       console.log("Error: No token");
       return;
@@ -209,8 +208,8 @@ const Publication = () => {
 
   const editPublication = async (e) => {
     const publicationId = e.target.dataset.id; // Obtener el ID desde el evento
-     // Scroll hacia arriba
-     window.scrollTo(0, 0);
+    // Scroll hacia arriba
+    window.scrollTo(0, 0);
     //Abrimos el modal de confirmación
     openModal(t("modalEditTittle"));
     setHandleconfirm("handleConfirmEdit");
@@ -223,8 +222,6 @@ const Publication = () => {
     if (!token || !user) {
       return;
     }
-
-    // Suponiendo que publicationIdToEdit es el ID de la publicación que deseas editar
 
     const publicationToEdit = publications.find(
       (pub) => pub._id === publicationIdToEdit
@@ -348,7 +345,10 @@ const Publication = () => {
                   : publication.story;
 
                 return (
-                  <div key={publication._id} className="publication-container-stories">
+                  <div
+                    key={publication._id}
+                    className="publication-container-stories"
+                  >
                     <div className="card-body">
                       <p className="publication-description">
                         {t("number")} {index + 1}

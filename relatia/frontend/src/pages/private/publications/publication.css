@@ -1,6 +1,6 @@
 /* Estilo base para contenedores principales */
 .publication-container {
-  width: 50%; /* Ajusta este valor según lo que consideres apropiado para tu diseño */
+  width: 50%;
   margin: auto;
   background-color: #ffffff;
   padding: 20px;
@@ -11,7 +11,7 @@
 }
 
 .publication-container-stories {
-  width: auto; /* Ajusta este valor según lo que consideres apropiado para tu diseño */
+  width: auto;
   padding: 20px;
   margin-bottom: 2%;
   border-radius: 8px;
@@ -107,7 +107,6 @@
 .card-body {
   background-color: #ffffff;
   border-radius: 10px;
-  
 }
 
 .publication-no-Stories {
@@ -124,16 +123,16 @@
 @media (max-width: 768px) {
   .publication-container,
   .publication-container-stories {
-    width: 80%; /* Ajuste del ancho para pantallas más pequeñas */
+    width: 80%;
     padding: 15px;
   }
 
   .publication-title {
-    font-size: 20px; /* Tamaño de fuente más pequeño para mejor legibilidad */
+    font-size: 20px;
   }
 
   .card-title {
-    font-size: 1.2rem; /* Tamaño de fuente ajustado */
+    font-size: 1.2rem;
   }
 }
 
@@ -141,17 +140,17 @@
 @media (max-width: 480px) {
   .publication-container,
   .publication-container-stories {
-    width: auto; /* Ajuste del ancho para pantallas más pequeñas */
-    padding: 10px; /* Reducción del padding */
+    width: auto;
+    padding: 10px;
   }
 
   .publication-title,
   .card-title {
     margin-top: 25%;
-    font-size: 18px; /* Tamaño de fuente reducido */
+    font-size: 18px;
   }
 
   .card-text {
-    font-size: 14px; /* Tamaño de fuente reducido para textos */
+    font-size: 14px;
   }
 }

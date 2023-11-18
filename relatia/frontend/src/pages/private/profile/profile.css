@@ -116,8 +116,6 @@
   justify-content: center;
 }
 
-/* Tus estilos existentes */
-
 /* Media Queries */
 
 /* Para tabletas y pantallas pequeñas de escritorio */
@@ -125,19 +123,17 @@
   .profile-container,
   .userProfile-container,
   .following-container {
-    width: 80%; /* Ajuste para pantallas medianas */
+    width: 80%; 
   }
 
   .profile-image {
-    width: 200px; /* Ajuste del tamaño de la imagen */
+    width: 200px; 
     height: 200px;
   }
 
   .profile-tittle {
-    font-size: 30px; /* Tamaño de fuente ajustado */
-  }
+    font-size: 30px; 
 
-  /* Ajustes adicionales para otros elementos si es necesario */
 }
 
 /* Para móviles */
@@ -145,17 +141,15 @@
   .profile-container,
   .userProfile-container,
   .following-container {
-    width: 100%; /* Ajuste para pantallas más pequeñas */
-  }
+    width: 100%; 
 
   .profile-image {
-    width: 150px; /* Reducción del tamaño de la imagen */
+    width: 150px; 
     height: 150px;
   }
 
   .profile-tittle {
-    font-size: 25px; /* Tamaño de fuente más pequeño para mejor legibilidad */
-  }
+    font-size: 25px; 
 
-  /* Ajustes adicionales para otros elementos si es necesario */
-}
+  }
+  }

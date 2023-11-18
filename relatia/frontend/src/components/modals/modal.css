@@ -3,7 +3,6 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   padding: 20px;
-
 }
 
 .modal-overlay {
@@ -12,12 +11,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.6
-  ); /* Ligeramente más oscuro para mayor enfoque en el modal */
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,28 +32,26 @@
   right: 10px;
   border: none;
   background: none;
-  font-size: 24px; /* Hacer el icono un poco más grande */
+  font-size: 24px;
   cursor: pointer;
-  color: #333; /* Color oscuro para visibilidad */
+  color: #333;
 }
 
 .modal-content {
   display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: center; /* Centra los elementos verticalmente */
-  flex-direction: column; /* Alinea los elementos en una columna */
-  font-size: 1rem; /* Ajustar tamaño de fuente si es necesario */
-  color: #ffffff; /* Color oscuro para facilidad de lectura */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #ffffff;
   background-color: #ffffff;
-  /* Otros estilos según necesidades */
 }
 
 .modal-content h2 {
-  color: black; /* Color claro para facilidad de lectura */
+  color: black;
   font-weight: 300;
-  
 }
-.container-btn{
+.container-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +67,6 @@
   cursor: pointer;
   margin-left: 3%;
   min-width: 50px;
-  
 }
 .modal-button:hover {
   background-color: #223843;
@@ -85,11 +76,9 @@
   min-width: 50px;
 }
 
-
 /* Pantallas medianas (tabletas) */
 @media (max-width: 768px) {
   .modal-container {
-    /* Ajustes para tabletas */
     padding: 15px;
   }
   .modal-content {
@@ -100,7 +89,6 @@
 /* Pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
   .modal-container {
-    /* Ajustes para móviles */
     padding: 10px;
   }
   .modal-content {
@@ -110,7 +98,3 @@
     min-width: 40px;
   }
 }
-
-
-
-

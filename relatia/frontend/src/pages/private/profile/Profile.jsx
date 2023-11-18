@@ -59,7 +59,7 @@ const Profile = () => {
     }
   };
 
-  //Funcion para cambiar el avatar--------------------------------------------------
+  //FUNCIÓN PARA CAMBIAR EL AVATAR-----------------------------------------------------
 
   const handleFileChange = async (event) => {
     const file = event.target.files[0];
@@ -101,7 +101,7 @@ const Profile = () => {
     }
   };
 
-  //Funcion para guardar los cambios del perfil--------------------------------------------
+  //FUNCIÓN CAMBIOS DEL PERFIL--------------------------------------------
 
   const saveFormChanges = async () => {
     const token = localStorage.getItem("token");
@@ -150,7 +150,7 @@ const Profile = () => {
     }
   };
 
-  //Funcion para cambiar la contraseña-------------------------------------------------
+  //FUNCIÓN CAMBIAR CONTRASEÑA--------------------------------------------
 
   const changePassword = async () => {
     const token = localStorage.getItem("token");

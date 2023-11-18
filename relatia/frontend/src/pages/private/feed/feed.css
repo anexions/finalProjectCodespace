@@ -25,7 +25,7 @@
 }
 
 .feed-title {
-  color: #EFF1F3;
+  color: #eff1f3;
   font-size: 40px;
   margin-bottom: 10px;
   text-align: center;
@@ -34,7 +34,7 @@
 
 .feed-description {
   font-size: 18px;
-  color: #EFF1F3;
+  color: #eff1f3;
   font-style: oblique;
   line-height: 1.6;
   text-align: center;
@@ -72,18 +72,18 @@
 /* Media Query para pantallas menores a 768px */
 @media (max-width: 768px) {
   .feed-container {
-    max-width: 75%; /* Ajuste del ancho máximo */
+    max-width: 75%;
     padding: 15px;
   }
 
   .feed-title,
   .publication-title-feed {
-    font-size: 25px; /* Tamaño de fuente ajustado */
+    font-size: 25px;
   }
 
   .feed-description,
   .publication-story {
-    font-size: 16px; /* Tamaño de fuente ajustado */
+    font-size: 16px;
   }
 
   .avatar-image-feed {
@@ -100,7 +100,7 @@
 /* Media Query para pantallas aún más pequeñas (hasta 480px) */
 @media (max-width: 480px) {
   .feed-container {
-    max-width: 100%; /* Ocupar todo el ancho */
+    max-width: 100%;
     padding: 10px;
   }
 
@@ -121,7 +121,7 @@
   }
 
   .publication-card {
-    max-width: 100%; /* Ocupar todo el ancho */
+    max-width: 100%;
     padding: 10px;
   }
 }

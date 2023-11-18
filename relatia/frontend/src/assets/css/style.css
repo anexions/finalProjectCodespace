@@ -3,14 +3,14 @@
 
 html,
 body {
-  display: flex; /* Alinea los elementos en una fila */
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
   background-color: #212529;
-  overflow-x: hidden; /* Evita que el contenido se desborde horizontalmente */
+  overflow-x: hidden;
 }
 
 .layout-container {
@@ -22,16 +22,16 @@ body {
 /*HEADER*/
 .navbar {
   background-color: #ffffff;
-  color: #252422; /* Color del texto oscuro para contraste */
+  color: #252422;
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .navbar a:hover {
-  color: #d77a61; /* Cambia el color al pasar el cursor */
+  color: #d77a61;
 }
 div.navItem {
   margin: 0 10px;

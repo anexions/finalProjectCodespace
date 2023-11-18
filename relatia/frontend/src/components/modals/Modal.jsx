@@ -4,7 +4,6 @@ const Modal = ({ isOpen, closeModal, children }) => {
   //isOpen es un booleano que indica si el modal está abierto o no, closeModal es la función que cierra el modal
   //y children es el contenido del modal (children ya viene definido por react) Childre se define en el componente donde se llama al modal.
   if (!isOpen) return null; //Solo se abrirá si isOpen es true
- 
 
   return (
     <div className="modal-overlay">

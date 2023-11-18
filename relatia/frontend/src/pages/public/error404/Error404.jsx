@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"; //Funcion para las traducciones
 import "./error404.css"; //Importamos el css de Error404
 
 const Error404 = () => {
-  const { t } = useTranslation(); //Llamada a la función para las traducciones, siempre que usemos t() se traducirá lo que haya dentro
+  const { t } = useTranslation(); 
 
   return (
     <div>
