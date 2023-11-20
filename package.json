@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  },
-  "scripts": {
-    "start": "concurrently \"npm start --prefix relatia/backend\" \"npm run dev --prefix relatia/frontend\""
-  }
-}
